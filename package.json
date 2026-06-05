@@ -1,0 +1,17 @@
+{
+  "name": "pict-section-dashboard",
+  "version": "0.0.1",
+  "description": "Embeddable Pict view for browsing, rendering, and managing dashboards backed by the retold-data-mapper REST surface.",
+  "main": "source/Pict-Section-Dashboard.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node source/Pict-Section-Dashboard.js",
+    "test": "npx quack test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pict-view": "^0.0.0"
+  }
+}
